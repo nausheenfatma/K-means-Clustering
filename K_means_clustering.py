@@ -45,7 +45,7 @@ class KMeansClustering:
 	def k_means_cluster(self):
 		i=1
 		#while i < 10:
-		while True: #repeat until convergence
+		while True: 					#repeat until convergence
 			i=i+1
 			previous_k_points=self.k_centers[:]
 			self.find_clusters()
@@ -111,8 +111,8 @@ class KMeansClustering:
 
 def main():
 	km=KMeansClustering()
-	shape_tuple=(9,4)	#feature vector size=4,no of instances=9
-	km.initialise_array_from_file("testfile",3,shape_tuple) #k= no. of clusters
+	shape_tuple=(9,4)					#feature vector size=4,no of instances=9
+	km.initialise_array_from_file("testfile",3,shape_tuple) #no. of clusters=3
 	km.run_kmeans_algo()
 	km.show_final_clusters()
 
