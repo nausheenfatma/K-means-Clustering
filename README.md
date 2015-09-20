@@ -1,5 +1,3 @@
-# K-means-Clustering
-a simple k means clustering algorithm 
 1)Run this code :
 
 python numpy_memmap_trial.py
