@@ -1,6 +1,4 @@
-1)Run this code :
-
-python numpy_memmap_trial.py
+1) python numpy_memmap_trial.py
 
 It will generate a binary file named "testfile"
 
